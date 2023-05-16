@@ -1,0 +1,11 @@
+plugins {
+  id 'java-library'
+  id 'java'
+  id 'org.jetbrains.kotlin.jvm'
+}
+dependencies {
+  compileOnly(platform(project(':module048')))
+  compileOnly 'com.android.tools.lint:lint-api:30.4.2'
+  compileOnly 'com.android.tools.lint:lint-checks:30.4.2'
+  compileOnly 'com.google.code.gson:gson'
+}

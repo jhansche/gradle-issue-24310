@@ -1,0 +1,40 @@
+plugins {
+  id 'com.android.library' apply false
+  id 'com.android.application' apply false
+//  id 'org.jetbrains.kotlin.jvm' apply false
+  id 'org.jetbrains.kotlin.android' apply false
+  id 'org.jetbrains.kotlin.kapt' apply false
+  id "org.jlleitschuh.gradle.ktlint"
+}
+allprojects {
+  repositories {
+    google()
+    jcenter()
+    maven {
+      url 'https://jitpack.io'
+    }
+  }
+}
+dependencies {
+}
+
+subprojects {
+    apply plugin: "org.jlleitschuh.gradle.ktlint"
+}
+
+allprojects {
+    ktlint {
+        version = "0.45.2"
+        android = true
+        outputToConsole = false
+        ignoreFailures = true
+        filter {
+            exclude("**/generated/**")
+            include("**/kotlin/**")
+        }
+    }
+}
+
+subprojects {
+    apply from: rootProject.file('gradle/checkstyle.gradle')
+}

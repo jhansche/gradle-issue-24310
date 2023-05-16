@@ -1,0 +1,154 @@
+{
+  "androidResources": {
+    "animator": [],
+    "anim": [],
+    "color": [],
+    "drawable": [
+      {
+        "qualifiers": "",
+        "extension": "xml",
+        "quantity": 2,
+        "fileData": [
+          6,
+          15
+        ]
+      },
+      {
+        "qualifiers": "hdpi",
+        "extension": "png",
+        "quantity": 4,
+        "fileData": [
+          875,
+          4892,
+          1208,
+          1681
+        ]
+      },
+      {
+        "qualifiers": "mdpi",
+        "extension": "png",
+        "quantity": 4,
+        "fileData": [
+          624,
+          3124,
+          822,
+          1076
+        ]
+      },
+      {
+        "qualifiers": "xhdpi",
+        "extension": "png",
+        "quantity": 4,
+        "fileData": [
+          1160,
+          6719,
+          1618,
+          2482
+        ]
+      },
+      {
+        "qualifiers": "xxhdpi",
+        "extension": "png",
+        "quantity": 4,
+        "fileData": [
+          1758,
+          10638,
+          2861,
+          3873
+        ]
+      },
+      {
+        "qualifiers": "xxxhdpi",
+        "extension": "png",
+        "quantity": 4,
+        "fileData": [
+          2741,
+          14487,
+          3913,
+          5549
+        ]
+      }
+    ],
+    "font": [],
+    "layout": [
+      {
+        "qualifiers": "",
+        "extension": "xml",
+        "quantity": 5,
+        "fileData": [
+          24,
+          18,
+          14,
+          14,
+          112
+        ]
+      }
+    ],
+    "menu": [],
+    "mipmap": [],
+    "navigation": [],
+    "raw": [],
+    "transition": [],
+    "values": [
+      {
+        "qualifiers": "",
+        "extension": "xml",
+        "quantity": 3,
+        "valuesFileList": [
+          {
+            "stringCount": 0,
+            "intCount": 0,
+            "boolCount": 0,
+            "colorCount": 0,
+            "dimenCount": 0,
+            "idCount": 0,
+            "integerArrayCount": [],
+            "arrayCount": [],
+            "styleCount": [
+              0,
+              8,
+              0,
+              4,
+              3,
+              3,
+              0,
+              6,
+              3,
+              0,
+              1,
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "stringCount": 12,
+            "intCount": 0,
+            "boolCount": 0,
+            "colorCount": 0,
+            "dimenCount": 0,
+            "idCount": 0,
+            "integerArrayCount": [],
+            "arrayCount": [],
+            "styleCount": []
+          },
+          {
+            "stringCount": 0,
+            "intCount": 0,
+            "boolCount": 0,
+            "colorCount": 0,
+            "dimenCount": 0,
+            "idCount": 0,
+            "integerArrayCount": [],
+            "arrayCount": [],
+            "styleCount": []
+          }
+        ]
+      }
+    ],
+    "xml": []
+  },
+  "javaResources": {},
+  "assets": {}
+}

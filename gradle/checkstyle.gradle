@@ -1,0 +1,18 @@
+apply plugin: 'checkstyle'
+
+checkstyle {
+    toolVersion '8.1'
+}
+
+def csTask = tasks.create(name: 'checkstyle', type: Checkstyle, dependsOn: ktlintCheck) {
+    configFile rootProject.file('config/checkstyle/checkstyle.xml')
+    source "$projectDir/src/"
+    include '**/*.java'
+    classpath = project.files()
+
+    if (project.findProperty('repro.exclude.tasks') == 'true') {
+        gradle.startParameter.excludedTaskNames = gradle.startParameter.excludedTaskNames + ":${project.name}:${name}".toString()
+    }
+}
+
+tasks.findByName("check")?.dependsOn csTask

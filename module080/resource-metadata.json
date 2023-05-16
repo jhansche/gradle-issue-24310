@@ -1,0 +1,115 @@
+{
+  "androidResources": {
+    "animator": [],
+    "anim": [],
+    "color": [],
+    "drawable": [],
+    "font": [],
+    "layout": [
+      {
+        "qualifiers": "",
+        "extension": "xml",
+        "quantity": 33,
+        "fileData": [
+          217,
+          134,
+          92,
+          167,
+          169,
+          10,
+          63,
+          56,
+          87,
+          18,
+          16,
+          36,
+          121,
+          25,
+          108,
+          68,
+          170,
+          175,
+          22,
+          214,
+          116,
+          24,
+          55,
+          103,
+          65,
+          148,
+          86,
+          31,
+          84,
+          82,
+          86,
+          40,
+          12
+        ]
+      }
+    ],
+    "menu": [
+      {
+        "qualifiers": "",
+        "extension": "xml",
+        "quantity": 2,
+        "fileData": [
+          14,
+          14
+        ]
+      }
+    ],
+    "mipmap": [],
+    "navigation": [],
+    "raw": [],
+    "transition": [],
+    "values": [
+      {
+        "qualifiers": "",
+        "extension": "xml",
+        "quantity": 2,
+        "valuesFileList": [
+          {
+            "stringCount": 0,
+            "intCount": 0,
+            "boolCount": 0,
+            "colorCount": 0,
+            "dimenCount": 0,
+            "idCount": 0,
+            "integerArrayCount": [],
+            "arrayCount": [],
+            "styleCount": []
+          },
+          {
+            "stringCount": 0,
+            "intCount": 0,
+            "boolCount": 0,
+            "colorCount": 0,
+            "dimenCount": 0,
+            "idCount": 6,
+            "integerArrayCount": [],
+            "arrayCount": [],
+            "styleCount": []
+          }
+        ]
+      }
+    ],
+    "xml": []
+  },
+  "javaResources": {},
+  "assets": {
+    "json": [
+      35949,
+      26097,
+      27390,
+      19787,
+      23550,
+      23301,
+      22305,
+      15428,
+      2917,
+      4764,
+      12738,
+      19000
+    ]
+  }
+}

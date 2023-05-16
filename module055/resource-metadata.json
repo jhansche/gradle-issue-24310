@@ -1,0 +1,112 @@
+{
+  "androidResources": {
+    "animator": [],
+    "anim": [],
+    "color": [
+      {
+        "qualifiers": "",
+        "extension": "xml",
+        "quantity": 2,
+        "fileData": [
+          6,
+          9
+        ]
+      }
+    ],
+    "drawable": [
+      {
+        "qualifiers": "",
+        "extension": "xml",
+        "quantity": 13,
+        "fileData": [
+          13,
+          13,
+          28,
+          13,
+          13,
+          17,
+          5,
+          6,
+          6,
+          25,
+          12,
+          18,
+          15
+        ]
+      }
+    ],
+    "font": [],
+    "layout": [],
+    "menu": [],
+    "mipmap": [],
+    "navigation": [],
+    "raw": [],
+    "transition": [],
+    "values": [
+      {
+        "qualifiers": "",
+        "extension": "xml",
+        "quantity": 4,
+        "valuesFileList": [
+          {
+            "stringCount": 0,
+            "intCount": 0,
+            "boolCount": 0,
+            "colorCount": 9,
+            "dimenCount": 0,
+            "idCount": 0,
+            "integerArrayCount": [],
+            "arrayCount": [],
+            "styleCount": []
+          },
+          {
+            "stringCount": 0,
+            "intCount": 0,
+            "boolCount": 0,
+            "colorCount": 0,
+            "dimenCount": 0,
+            "idCount": 0,
+            "integerArrayCount": [],
+            "arrayCount": [],
+            "styleCount": [
+              0,
+              4,
+              4,
+              4,
+              2,
+              3,
+              4,
+              3,
+              13
+            ]
+          },
+          {
+            "stringCount": 2,
+            "intCount": 0,
+            "boolCount": 0,
+            "colorCount": 0,
+            "dimenCount": 0,
+            "idCount": 0,
+            "integerArrayCount": [],
+            "arrayCount": [],
+            "styleCount": []
+          },
+          {
+            "stringCount": 0,
+            "intCount": 0,
+            "boolCount": 0,
+            "colorCount": 0,
+            "dimenCount": 0,
+            "idCount": 0,
+            "integerArrayCount": [],
+            "arrayCount": [],
+            "styleCount": []
+          }
+        ]
+      }
+    ],
+    "xml": []
+  },
+  "javaResources": {},
+  "assets": {}
+}

@@ -1,0 +1,30 @@
+plugins {
+  id 'com.android.library'
+  id 'kotlin-android'
+  id 'kotlin-kapt'
+}
+android {
+  compileSdkVersion = 33
+  defaultConfig {
+    minSdkVersion 21
+    targetSdkVersion 25
+  }
+  compileOptions {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+  }
+  kotlinOptions {
+    jvmTarget = '1.8'
+  }
+}
+dependencies {
+  api(platform(project(':module048')))
+  api project(':module161')
+  //api 'com.example.ads:dependencies:3.18.0'
+  //api 'com.example.ads:mediator-nimbus'
+  implementation project(':module038')
+  implementation project(':module094')
+  //implementation 'com.example.ads:corp-ads'
+  implementation 'io.reactivex.rxjava2:rxjava'
+  kapt(platform(project(':module048')))
+}

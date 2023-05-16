@@ -1,0 +1,28 @@
+{
+  "androidResources": {
+    "animator": [],
+    "anim": [],
+    "color": [],
+    "drawable": [],
+    "font": [
+      {
+        "qualifiers": "",
+        "extension": "ttf",
+        "quantity": 1,
+        "fileData": [
+          58324
+        ]
+      }
+    ],
+    "layout": [],
+    "menu": [],
+    "mipmap": [],
+    "navigation": [],
+    "raw": [],
+    "transition": [],
+    "values": [],
+    "xml": []
+  },
+  "javaResources": {},
+  "assets": {}
+}

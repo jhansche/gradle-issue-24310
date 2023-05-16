@@ -1,0 +1,44 @@
+plugins {
+  id 'com.android.library'
+  id 'kotlin-android'
+}
+android {
+  compileSdkVersion = 33
+  defaultConfig {
+    minSdkVersion 21
+    targetSdkVersion 25
+  }
+  compileOptions {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+  }
+  kotlinOptions {
+    jvmTarget = '1.8'
+  }
+}
+dependencies {
+  api(platform(project(':module048')))
+  api 'io.reactivex.rxjava2:rxjava'
+  implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk7'
+  testImplementation(platform(project(':module048')))
+  testImplementation 'androidx.arch.core:core-testing'
+  testImplementation 'androidx.fragment:fragment-testing'
+  testImplementation 'androidx.test.espresso:espresso-core'
+  testImplementation 'androidx.test.ext:junit'
+  testImplementation 'androidx.test:core'
+  testImplementation 'com.google.truth:truth:0.42'
+  //testImplementation 'com.example.android:android-test-utils:0.28'
+  //testImplementation 'com.example.android:test-utils:0.29-SNAPSHOT'
+  testImplementation 'com.squareup.assertj:assertj-android-design:1.2.0'
+  testImplementation 'com.squareup.assertj:assertj-android-recyclerview-v7:1.2.0'
+  testImplementation 'com.squareup.assertj:assertj-android-support-v4:1.2.0'
+  testImplementation 'com.squareup.assertj:assertj-android:1.2.0'
+  testImplementation 'junit:junit:4.12'
+  testImplementation 'org.assertj:assertj-core:2.6.0'
+  testImplementation 'org.mockito.kotlin:mockito-kotlin:4.0.0'
+  testImplementation 'org.mockito:mockito-core:4.8.0'
+  testImplementation 'org.mockito:mockito-inline:4.8.0'
+  testImplementation 'org.robolectric:robolectric:4.8.2'
+  testImplementation 'org.robolectric:shadows-framework:4.8.2'
+  testImplementation 'org.robolectric:utils:4.8.2'
+}

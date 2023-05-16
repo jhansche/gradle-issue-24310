@@ -1,0 +1,168 @@
+plugins {
+  id 'com.android.application'
+  id 'kotlin-android'
+  id 'kotlin-kapt'
+}
+android {
+  compileSdkVersion = 33
+  defaultConfig {
+    minSdkVersion 21
+    targetSdkVersion 31
+  }
+  compileOptions {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+  }
+  kotlinOptions {
+    jvmTarget = '1.8'
+  }
+  buildFeatures {
+    viewBinding = true
+  }
+}
+dependencies {
+  androidTestImplementation project(':module044')
+  androidTestImplementation 'androidx.annotation:annotation'
+  androidTestImplementation 'androidx.multidex:multidex-instrumentation'
+  androidTestImplementation 'androidx.multidex:multidex'
+  androidTestImplementation 'androidx.test.espresso:espresso-contrib'
+  androidTestImplementation 'androidx.test.espresso:espresso-core'
+  androidTestImplementation 'androidx.test.espresso:espresso-intents'
+  androidTestImplementation 'androidx.test.ext:junit'
+  androidTestImplementation 'androidx.test.uiautomator:uiautomator'
+  androidTestImplementation 'androidx.test:core'
+  androidTestImplementation 'androidx.test:rules'
+  androidTestImplementation 'androidx.test:runner'
+  androidTestImplementation 'com.google.code.findbugs:jsr305'
+  androidTestImplementation 'com.google.dagger:dagger:2.43.2'
+  androidTestImplementation 'com.google.truth:truth:0.42'
+  //androidTestImplementation 'com.example.android:android-test-utils:0.28'
+  //androidTestImplementation 'com.example.android:test-utils:0.29-SNAPSHOT'
+  androidTestImplementation 'com.squareup.assertj:assertj-android-design:1.2.0'
+  androidTestImplementation 'com.squareup.assertj:assertj-android-recyclerview-v7:1.2.0'
+  androidTestImplementation 'com.squareup.assertj:assertj-android-support-v4:1.2.0'
+  androidTestImplementation 'com.squareup.assertj:assertj-android:1.2.0'
+  androidTestImplementation 'org.assertj:assertj-core:2.6.0'
+  androidTestImplementation 'org.mockito.kotlin:mockito-kotlin:4.0.0'
+  androidTestImplementation 'org.mockito:mockito-android:4.8.0'
+  api(platform(project(':module048')))
+  api 'androidx.databinding:viewbinding:7.4.2'
+  api 'androidx.work:work-runtime-ktx:2.7.1'
+  //api 'com.example.ads:dependencies:3.13.0'
+  implementation project(':module002')
+  implementation project(':module003')
+  implementation project(':module004')
+  implementation project(':module005')
+  implementation project(':module006')
+  implementation project(':module020')
+  implementation project(':module026')
+  implementation project(':module031')
+  implementation project(':module052')
+  implementation project(':module057')
+  implementation project(':module061')
+  implementation project(':module066')
+  implementation project(':module070')
+  implementation project(':module073')
+  implementation project(':module076')
+  implementation project(':module080')
+  implementation project(':module091')
+  implementation project(':module094')
+  implementation project(':module096')
+  implementation project(':module099')
+  implementation project(':module102')
+  implementation project(':module112')
+  implementation project(':module113')
+  implementation project(':module118')
+  implementation project(':module120')
+  implementation project(':module128')
+  implementation project(':module129')
+  implementation project(':module132')
+  implementation project(':module134')
+  implementation project(':module136')
+  implementation project(':module138')
+  implementation project(':module139')
+  implementation project(':module140')
+  implementation project(':module144')
+  implementation project(':module145')
+  implementation project(':module146')
+  implementation project(':module147')
+  implementation project(':module148')
+  implementation project(':module151')
+  implementation project(':module152')
+  implementation project(':module153')
+  implementation project(':module154')
+  implementation project(':module155')
+  implementation project(':module157')
+  implementation project(':module158')
+  implementation project(':module159')
+  implementation project(':module160')
+  implementation project(':module161')
+  implementation project(':module163')
+  implementation project(':module167')
+  implementation project(':module172')
+  implementation project(':module179')
+  implementation project(':module184')
+  implementation project(':module195')
+  implementation project(':module196')
+  implementation project(':module199')
+  implementation 'androidx.constraintlayout:constraintlayout'
+  implementation 'androidx.emoji:emoji'
+  implementation 'androidx.lifecycle:lifecycle-process'
+  implementation 'androidx.multidex:multidex'
+  implementation 'androidx.preference:preference'
+  implementation 'androidx.startup:startup-runtime'
+  implementation 'com.airbnb.android:lottie:5.2.0'
+  implementation 'com.facebook.stetho:stetho-okhttp3:1.6.0'
+  implementation 'com.facebook.stetho:stetho:1.6.0'
+  implementation 'com.github.anrwatchdog:anrwatchdog:1.4.0'
+  implementation 'com.github.chuckerteam.chucker:library:3.5.2'
+  implementation 'com.google.android.gms:play-services-oss-licenses:17.0.0'
+  implementation 'com.google.dagger:dagger:2.43.2'
+  implementation 'com.google.firebase:firebase-core:21.1.1'
+  implementation 'com.google.firebase:firebase-crashlytics-ndk:18.2.13'
+  implementation 'com.google.firebase:firebase-crashlytics:18.2.13'
+  implementation 'com.google.firebase:firebase-perf:20.1.1'
+  //implementation 'com.example.android:android-recyclerview-utils'
+  //implementation 'com.example.android:android-utils'
+  //implementation 'com.example.android:gson-adapters'
+  //implementation 'com.example.android:java-utils'
+  //implementation 'com.example.android:widgets'
+  implementation 'com.squareup.curtains:curtains:1.2.4'
+  implementation 'com.squareup.leakcanary:leakcanary-android:2.9.1'
+  implementation 'com.squareup.phrase:phrase'
+  //implementation 'com.example.ads:amazon-base'
+  //implementation 'com.example.ads:applovin-base'
+  //implementation 'com.example.ads:facebook-base'
+  //implementation 'com.example.ads:googleplay-base'
+  //implementation 'com.example.ads:hyprmx-base'
+  //implementation 'com.example.ads:internal-tools'
+  //implementation 'com.example.ads:mopub-extras'
+  implementation 'com.uber.rxdogtag:rxdogtag:1.0.1'
+  implementation 'io.reactivex.rxjava2:rxandroid'
+  implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk7'
+  kapt(platform(project(':module048')))
+  kapt 'com.google.dagger:dagger-compiler:2.43.2'
+  testImplementation project(':module044')
+  testImplementation(platform(project(':module048')))
+  testImplementation 'androidx.arch.core:core-testing'
+  testImplementation 'androidx.fragment:fragment-testing'
+  testImplementation 'androidx.test.espresso:espresso-core'
+  testImplementation 'androidx.test.ext:junit'
+  testImplementation 'androidx.test:core'
+  testImplementation 'com.google.truth:truth:0.42'
+  //testImplementation 'com.example.android:android-test-utils:0.28'
+  //testImplementation 'com.example.android:test-utils:0.29-SNAPSHOT'
+  testImplementation 'com.squareup.assertj:assertj-android-design:1.2.0'
+  testImplementation 'com.squareup.assertj:assertj-android-recyclerview-v7:1.2.0'
+  testImplementation 'com.squareup.assertj:assertj-android-support-v4:1.2.0'
+  testImplementation 'com.squareup.assertj:assertj-android:1.2.0'
+  testImplementation 'com.squareup.okhttp3:mockwebserver'
+  testImplementation 'junit:junit:4.12'
+  testImplementation 'org.assertj:assertj-core:2.6.0'
+  testImplementation 'org.mockito.kotlin:mockito-kotlin:4.0.0'
+  testImplementation 'org.mockito:mockito-core:4.8.0'
+  testImplementation 'org.mockito:mockito-inline:4.8.0'
+  testImplementation 'org.robolectric:robolectric:4.8.2'
+  testImplementation 'org.robolectric:shadows-framework:4.8.2'
+  testImplementation 'org.robolectric:utils:4.8.2'
+}

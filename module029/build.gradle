@@ -1,0 +1,69 @@
+plugins {
+  id 'com.android.library'
+  id 'kotlin-android'
+  id 'kotlin-kapt'
+}
+android {
+  compileSdkVersion = 33
+  defaultConfig {
+    minSdkVersion 21
+    targetSdkVersion 25
+  }
+  compileOptions {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+  }
+  kotlinOptions {
+    jvmTarget = '1.8'
+  }
+}
+dependencies {
+  api project(':module017')
+  api project(':module046')
+  api(platform(project(':module048')))
+  api project(':module058')
+  api project(':module059')
+  api project(':module065')
+  api project(':module169')
+  api 'androidx.appcompat:appcompat'
+  api 'androidx.dynamicanimation:dynamicanimation'
+  api 'androidx.swiperefreshlayout:swiperefreshlayout'
+  api 'com.github.sephiroth74:android-target-tooltip'
+  api 'com.jakewharton.rxbinding3:rxbinding-core'
+  api 'it.sephiroth.android.library.targettooltip:target-tooltip-library:1.3.15'
+  api 'ru.tinkoff.scrollingpagerindicator:scrollingpagerindicator'
+  implementation 'androidx.annotation:annotation'
+  implementation 'androidx.browser:browser'
+  implementation 'androidx.cardview:cardview'
+  implementation 'androidx.core:core-ktx'
+  implementation 'androidx.recyclerview:recyclerview'
+  implementation 'com.airbnb.android:paris:2.0.0'
+  implementation 'com.google.android.material:material'
+  //implementation 'com.example.android:android-utils'
+  //implementation 'com.example.android:multistateview-library'
+  //implementation 'com.example.android:widgets'
+  implementation 'io.reactivex.rxjava2:rxandroid'
+  implementation 'io.reactivex.rxjava2:rxjava'
+  kapt(platform(project(':module048')))
+  testImplementation(platform(project(':module048')))
+  testImplementation 'androidx.arch.core:core-testing'
+  testImplementation 'androidx.fragment:fragment-testing'
+  testImplementation 'androidx.test.espresso:espresso-core'
+  testImplementation 'androidx.test.ext:junit'
+  testImplementation 'androidx.test:core'
+  testImplementation 'com.google.truth:truth:0.42'
+  //testImplementation 'com.example.android:android-test-utils:0.28'
+  //testImplementation 'com.example.android:test-utils:0.29-SNAPSHOT'
+  testImplementation 'com.squareup.assertj:assertj-android-design:1.2.0'
+  testImplementation 'com.squareup.assertj:assertj-android-recyclerview-v7:1.2.0'
+  testImplementation 'com.squareup.assertj:assertj-android-support-v4:1.2.0'
+  testImplementation 'com.squareup.assertj:assertj-android:1.2.0'
+  testImplementation 'junit:junit:4.12'
+  testImplementation 'org.assertj:assertj-core:2.6.0'
+  testImplementation 'org.mockito.kotlin:mockito-kotlin:4.0.0'
+  testImplementation 'org.mockito:mockito-core:4.8.0'
+  testImplementation 'org.mockito:mockito-inline:4.8.0'
+  testImplementation 'org.robolectric:robolectric:4.8.2'
+  testImplementation 'org.robolectric:shadows-framework:4.8.2'
+  testImplementation 'org.robolectric:utils:4.8.2'
+}

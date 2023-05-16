@@ -1,0 +1,277 @@
+{
+  "androidResources": {
+    "animator": [],
+    "anim": [
+      {
+        "qualifiers": "",
+        "extension": "xml",
+        "quantity": 1,
+        "fileData": [
+          12
+        ]
+      }
+    ],
+    "color": [
+      {
+        "qualifiers": "",
+        "extension": "xml",
+        "quantity": 1,
+        "fileData": [
+          5
+        ]
+      }
+    ],
+    "drawable": [
+      {
+        "qualifiers": "",
+        "extension": "xml",
+        "quantity": 19,
+        "fileData": [
+          14,
+          21,
+          10,
+          14,
+          9,
+          10,
+          14,
+          14,
+          13,
+          10,
+          13,
+          13,
+          6,
+          13,
+          6,
+          8,
+          9,
+          12,
+          19
+        ]
+      }
+    ],
+    "font": [],
+    "layout": [
+      {
+        "qualifiers": "",
+        "extension": "xml",
+        "quantity": 27,
+        "fileData": [
+          20,
+          20,
+          32,
+          63,
+          23,
+          53,
+          163,
+          30,
+          9,
+          62,
+          14,
+          32,
+          32,
+          47,
+          118,
+          131,
+          31,
+          35,
+          49,
+          134,
+          16,
+          10,
+          65,
+          49,
+          16,
+          40,
+          45
+        ]
+      }
+    ],
+    "menu": [
+      {
+        "qualifiers": "",
+        "extension": "xml",
+        "quantity": 1,
+        "fileData": [
+          80
+        ]
+      }
+    ],
+    "mipmap": [],
+    "navigation": [
+      {
+        "qualifiers": "",
+        "extension": "xml",
+        "quantity": 1,
+        "fileData": [
+          22
+        ]
+      }
+    ],
+    "raw": [],
+    "transition": [],
+    "values": [
+      {
+        "qualifiers": "",
+        "extension": "xml",
+        "quantity": 7,
+        "valuesFileList": [
+          {
+            "stringCount": 0,
+            "intCount": 0,
+            "boolCount": 0,
+            "colorCount": 6,
+            "dimenCount": 0,
+            "idCount": 0,
+            "integerArrayCount": [],
+            "arrayCount": [],
+            "styleCount": []
+          },
+          {
+            "stringCount": 0,
+            "intCount": 0,
+            "boolCount": 0,
+            "colorCount": 0,
+            "dimenCount": 15,
+            "idCount": 0,
+            "integerArrayCount": [],
+            "arrayCount": [],
+            "styleCount": []
+          },
+          {
+            "stringCount": 0,
+            "intCount": 0,
+            "boolCount": 0,
+            "colorCount": 0,
+            "dimenCount": 0,
+            "idCount": 0,
+            "integerArrayCount": [],
+            "arrayCount": [],
+            "styleCount": [
+              35
+            ]
+          },
+          {
+            "stringCount": 0,
+            "intCount": 0,
+            "boolCount": 0,
+            "colorCount": 0,
+            "dimenCount": 0,
+            "idCount": 0,
+            "integerArrayCount": [],
+            "arrayCount": [],
+            "styleCount": [
+              0,
+              9,
+              8,
+              9,
+              1,
+              0,
+              1,
+              1,
+              3,
+              0,
+              0,
+              0,
+              0,
+              11,
+              16,
+              12,
+              0,
+              2,
+              2,
+              1,
+              2,
+              3,
+              1,
+              0,
+              0,
+              2,
+              2,
+              1,
+              0,
+              5
+            ]
+          },
+          {
+            "stringCount": 0,
+            "intCount": 0,
+            "boolCount": 0,
+            "colorCount": 0,
+            "dimenCount": 0,
+            "idCount": 0,
+            "integerArrayCount": [],
+            "arrayCount": [],
+            "styleCount": []
+          },
+          {
+            "stringCount": 0,
+            "intCount": 0,
+            "boolCount": 0,
+            "colorCount": 0,
+            "dimenCount": 0,
+            "idCount": 0,
+            "integerArrayCount": [],
+            "arrayCount": [],
+            "styleCount": []
+          },
+          {
+            "stringCount": 0,
+            "intCount": 0,
+            "boolCount": 0,
+            "colorCount": 0,
+            "dimenCount": 0,
+            "idCount": 2,
+            "integerArrayCount": [],
+            "arrayCount": [],
+            "styleCount": []
+          }
+        ]
+      },
+      {
+        "qualifiers": "v19",
+        "extension": "xml",
+        "quantity": 1,
+        "valuesFileList": [
+          {
+            "stringCount": 0,
+            "intCount": 0,
+            "boolCount": 0,
+            "colorCount": 0,
+            "dimenCount": 0,
+            "idCount": 0,
+            "integerArrayCount": [],
+            "arrayCount": [],
+            "styleCount": [
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "qualifiers": "v21",
+        "extension": "xml",
+        "quantity": 1,
+        "valuesFileList": [
+          {
+            "stringCount": 0,
+            "intCount": 0,
+            "boolCount": 0,
+            "colorCount": 0,
+            "dimenCount": 0,
+            "idCount": 0,
+            "integerArrayCount": [],
+            "arrayCount": [],
+            "styleCount": [
+              1,
+              0
+            ]
+          }
+        ]
+      }
+    ],
+    "xml": []
+  },
+  "javaResources": {},
+  "assets": {}
+}

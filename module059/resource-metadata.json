@@ -1,0 +1,40 @@
+{
+  "androidResources": {
+    "animator": [],
+    "anim": [],
+    "color": [],
+    "drawable": [],
+    "font": [
+      {
+        "qualifiers": "",
+        "extension": "xml",
+        "quantity": 3,
+        "fileData": [
+          8,
+          8,
+          8
+        ]
+      },
+      {
+        "qualifiers": "",
+        "extension": "ttf",
+        "quantity": 3,
+        "fileData": [
+          603056,
+          676228,
+          637068
+        ]
+      }
+    ],
+    "layout": [],
+    "menu": [],
+    "mipmap": [],
+    "navigation": [],
+    "raw": [],
+    "transition": [],
+    "values": [],
+    "xml": []
+  },
+  "javaResources": {},
+  "assets": {}
+}
