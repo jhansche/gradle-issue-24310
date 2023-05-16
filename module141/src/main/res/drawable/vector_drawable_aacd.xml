@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="81dp"
+    android:height="121dp"
+    android:viewportWidth="17"
+    android:viewportHeight="70">
+    <path
+        android:fillColor="#332d457d"
+        android:pathData="M0,0h81v121h-81z" />
+    <path
+        android:fillColor="#53655164"
+        android:strokeColor="#0f07447b"
+        android:strokeWidth="0.002"
+        android:fillAlpha="0.99"
+        android:pathData="M56,53L67,117" />
+    <path
+        android:fillColor="#75050b5a"
+        android:strokeColor="#2f206a43"
+        android:strokeWidth="0.992"
+        android:fillAlpha="0.956"
+        android:pathData="M17,11L49,9" />
+    <path
+        android:fillColor="#1a7a7227"
+        android:strokeColor="#194f4b70"
+        android:strokeWidth="0.907"
+        android:fillAlpha="0.976"
+        android:pathData="M61,66L18,24" />
+    <path
+        android:fillColor="#35057754"
+        android:strokeColor="#10690c59"
+        android:strokeWidth="0.13"
+        android:fillAlpha="0.442"
+        android:pathData="M59,103L47,36" />
+    <path
+        android:fillColor="#533c332f"
+        android:strokeColor="#13783579"
+        android:strokeWidth="0.842"
+        android:fillAlpha="0.866"
+        android:pathData="M28,0L52,68" />
+    <path
+        android:fillColor="#5d5e3e12"
+        android:strokeColor="#164d287f"
+        android:strokeWidth="0.516"
+        android:fillAlpha="0.421"
+        android:pathData="M52,39L39,66" />
+    <path
+        android:fillColor="#0b332557"
+        android:strokeColor="#201d7113"
+        android:strokeWidth="0.645"
+        android:fillAlpha="0.393"
+        android:pathData="M48,47L31,64" />
+    <path
+        android:fillColor="#5a535903"
+        android:strokeColor="#05540211"
+        android:strokeWidth="0.385"
+        android:fillAlpha="0.222"
+        android:pathData="M33,46L27,17" />
+</vector>

@@ -8,5 +8,3 @@ build/
 /captures
 .externalNativeBuild
 
-# project-replicator
-module*/src/main/

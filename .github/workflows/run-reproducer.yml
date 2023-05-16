@@ -13,4 +13,14 @@ jobs:
         java-version: 11
     - uses: gradle/gradle-build-action@v2
       with:
-        arguments: help --info
+        arguments: checkstyle --dry-run -Prepro.exclude.tasks=false --no-configuration-cache
+    - uses: gradle/gradle-build-action@v2
+      with:
+        arguments: checkstyle --dry-run -Prepro.exclude.tasks=true  --no-configuration-cache
+    - uses: gradle/gradle-build-action@v2
+      with:
+        arguments: checkstyle --dry-run -Prepro.exclude.tasks=false --configuration-cache
+    - uses: gradle/gradle-build-action@v2
+      with:
+        ## XXX: issue happens here
+        arguments: checkstyle --dry-run -Prepro.exclude.tasks=true --configuration-cache
